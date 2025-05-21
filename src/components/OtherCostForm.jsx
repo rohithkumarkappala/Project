@@ -96,7 +96,6 @@ const OtherCostForm = () => {
             )}
           </FormControl>
           <Button
-            colorScheme="indigo"
             onClick={handleSubmit}
             isLoading={loading}
             isDisabled={!isFormValid}

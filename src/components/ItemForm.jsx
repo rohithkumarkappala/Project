@@ -99,7 +99,6 @@ const ItemForm = () => {
             )}
           </FormControl>
           <Button
-            colorScheme="indigo"
             onClick={handleSubmit}
             isLoading={loading || isSubmitting}
             isDisabled={!isFormValid || isSubmitting}
